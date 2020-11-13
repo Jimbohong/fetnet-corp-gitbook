@@ -32,11 +32,6 @@
     - [二、Reducer](#二reducer)
     - [三、Action](#三action)
     - [四、Component](#四component)
-  - [柒、模組與流程](#柒模組與流程)
-    - [一、基本模組](#一基本模組)
-    - [二、表單模組](#二表單模組)
-    - [三、Fetnet 共用模組](#三fetnet-共用模組)
-    - [四、Corp 模組](#四corp-模組)
 
 ---
 
@@ -44,7 +39,7 @@
 
 ### 一、Estore 開發簡述
 
-遠傳 Estore 專案是使用 React 開發，並經過 EBU、CBU、Eservice 的開發後，延續一貫的開發邏輯再擴展而成，為了切版與開發不相互影響，因此切版與開發分屬於不同 Git 做維護，本文件只說明切版時的檔案結構與注意事項。在開發時需注意與 IT 串接端如何同步。
+關於遠傳遠傳專案是使用 React 開發，並經過 EBU、CBU、Eservice 的開發後，延續一貫的開發邏輯再擴展而成，為了切版與開發不相互影響，因此切版與開發分屬於不同 Git 做維護，本文件只說明切版時的檔案結構與注意事項。在開發時需注意與 IT 串接端如何同步。
 
 本文件不特別說明 React 、JS、CSS 等基礎使用方式，僅針對開發所使用的架構邏輯做說明，如有闕漏可再聯絡撰寫人補充。
 
@@ -1004,80 +999,3 @@ addToCart = () => {
   this.props.setCartData(list);
 }
 ```
-
----
-
-## 柒、模組與流程
-
-### 一、基本模組
-- [Button](./elements/button.md)
-- [Link](./elements/link.md)
-- [Item](./elements/item.md)
-- [LinkItem](./elements/linkitem.md)
-- [SocialMedia](./elements/socailmedia.md)
-- [Table](./elements/table.md)
-
-### 二、表單模組
-
-表單元件 HTML 結構，如果有客製化狀況，可依照下方表單結構自行變化 HTML 內容
-```html
-<div className='form-group'>
-  <label>欄位標題，可省略<label>
-  可直接放 
-  <LabelInput /> 等欄位內容或
-  <div>
-    用 div 包住客製的 HTML 元件，如 DatePicker
-  </div>
-</div>
-```
-
-**Fetnet 表單模組**
-- [Formsy](./form/formsy.md)
-- [Input](./form/input.md)
-- [Radio button](./form/radio-buton.md)
-- [Checkbox](./form/checkbox.md)
-- [Select](./form/select.md)
-- [Textarea](./form/Textarea.md)
-
-### 三、Fetnet 共用模組
-
-* [Breadcrumb](components/breadcrumb.md)
-* [Card](components/card.md)
-* [Tab](components/tab.md)
-* [Dropdown](components/dropdown.md)
-* [Collapse](components/collapse.md)
-* [Search](components/hotword.md)
-* [Panel](components/panel.md)
-* [Sidebar](components/sidebar.md)
-* [Emma](components/emma.md)
-* [LoadMore](components/loadmore.md)
-* [Paginate](components/paginate.md)
-* [Modal](components/modal.md)
-* [Marquee](components/marquee.md)
-
-* [Header](sections/header.md)
-* [Nav](sections/nav.md)
-* [Ad](sections/ad.md)
-* [Banner](sections/banner.md)
-* [Carousel](sections/carousel.md)
-* [Footer](sections/footer.md)
-* [Cards](sections/card.md)
-* [Section](sections/section.md)
-
-Corp 新增 Panel 模組
-* [Timeline](components/timeline.md)
-
-
-### 四、Corp 模組
-* [SimpleBanner](corp/simple-banner.md)
-* [CorpBanner](corp/corp-banner.md)
-* [CarouselGroup](corp/carousel-group.md)
-* [SingleVideoWithCaption](corp/single-video-with-caption.md)
-* [CorpLayout](corp/corp-layout.md)
-* [FilterCard](corp/filter-card.md)
-* [ESectionVideo](corp/e-section-video.md)
-* [Downloads](corp/downloads.md)
-* [BannerPromotionBasic](corp/banner-promotion-basic.md)
-* [CorpFeatureList](corp/corp-feature-list.md)
-* [JoinUsBanner](corp/join-us-banner.md)
-* [CardMultiSteps](corp/card-multi-steps.md)
