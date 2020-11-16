@@ -247,6 +247,110 @@ React 主要使用 Material-UI 的網格系統，參考其主要的瀏覽器尺�
 
 ### 二、基礎定義及修改
 
+**Vaiables**
+
+```sass
+// 引入 Google font
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap")
+
+// 進到開發環境時要修改對應的根目錄位置
+$publicURL: ""
+
+// 字型設定
+$font-family: "PingFang TC", "Noto Sans TC", "sans-serif", "Microsoft JhengHei", "微軟正黑體", "STHeitiTC-Light", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+$font-size: 16px
+$font-size-sm: 14px
+$font-black: 900
+$font-bold: 600
+$font-medium: 500
+$font-regular: 400
+$font-light: 300
+
+// 顏色設定
+$accent: #EF3123
+$main: #D3060F
+$error: #f05c38
+$grayblue: #6a798e
+
+// Red
+$red30: #EA574D
+$red50: #CD443A
+$red70: #BC392F
+$red100: #AA362E
+
+// Coral
+$coral30: #FFA188
+$coral50: #FF9173
+$coral70: #FD8768
+$coral100: #FC7B66
+
+// Yellow
+$yellow30: #FCDC6D
+$yellow50: #F3CF63
+$yellow70: #F0C852
+$yellow100: #ECC141
+
+// Blue
+$blue30: #9EDFE9
+$blue50: #85D1DC
+$blue70: #77CCD8
+$blue100: #5CC3D2
+
+// Business
+$business30: #3966DA
+$business50: #2F59C4
+$business70: #204CBE
+$business100: #1642B1
+
+// Navy
+$navy30: #0F3B81
+$navy50: #0A3476
+$navy70: #082F6D
+$navy100: #052860
+
+// Navy
+$white: #FFFFFF
+$lightgray50: #fafafa
+$lightgray70: #f1f3f5
+$lightgray100: #E8ECF0
+$ice: #eff4f1
+
+// Gray
+$gray30: #EBEBEB
+$gray50: #D6D6D6
+$gray70: #BFBFBF
+$gray100: #8A8A8A
+
+//  Dark gray
+$darkgray30: #6a798e
+$darkgray50: #5F6E84
+$darkgray70: #4F5E72
+$darkgray100: #4B5869
+
+// Black
+$black50: #202020
+$black70: #1B1B1B
+$black100: #141414
+
+// Others
+
+$darkgreen: #5f7b80
+
+$footer-bg: #232323
+
+// life circle
+$is-life-circle-gray: #5f7b80
+$is-life-circle-gray-70: #465a5e
+
+// 間距設定
+$space: 8px
+
+// 圓角單位
+$radius: 8px
+
+```
+
+
 <table>
   <tr>
    <td colspan="2" ><strong>路徑</strong>

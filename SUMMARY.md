@@ -40,6 +40,18 @@
 
 ## Form
 
+表單元件 HTML 結構，如果有客製化狀況，可依照下方表單結構自行變化 HTML 內容
+```html
+<div className='form-group'>
+  <label>欄位標題，可省略<label>
+  可直接放 
+  <LabelInput /> 等欄位內容或
+  <div>
+    用 div 包住客製的 HTML 元件，如 DatePicker
+  </div>
+</div>
+```
+
 * [Formsy](form/formsy.md)
 * [Input](form/input.md)
 * [Textarea](form/textarea.md)
